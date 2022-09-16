@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+form page
+        </title>
+        <style>
+            button{border-radius: 15px;
+            background-color: aqua;}
+            .abcd{background-color: beige;
+            border: double 5px;}
+        </style>
+    </head>
+    <body>
+        <form class="abcd">
+        <ol>
+        <li><p>Enter your Name </p></li>
+        <input type="text" placeholder="Enter your name"required/>
+        <li><p>Enter your surname </p></li>
+        <input type="text" placeholder="Enter your surname"required/>
+        <li><p>Enter your Email.ID </p></li>
+        <input type="email" placeholder="Enter your email"required/>
+        <li><p>Select your gender</p></li>
+        <input type="radio" name="gender"/>Female<br>
+        <input type="radio" name="gender"/>Male
+        <li><p>Click the arrow to select source</p></li>
+        <select>
+            <option>select the source</option>
+            <option value="Chennai">chennai</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolakata</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <li><p>Please slect your Destination</p></li>
+        <select>
+            <option>Select the Destination</option>
+            <option value="Chennai">chennai</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolakata</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <li><p>Selct date </p></li>
+        <input type="date"required/>
+        <li><p>select the timing </p></li>
+        <input type="time"required/>
+        <li><p>Number of seats</p></li>
+        <input type="number"required/>
+        <li><p>Upload Adhaar card</p></li>
+        <input type="file"/>
+        <br>
+        <br>
+        Click here to Submit the form:<button type="submit">submit</button>
+        </ol>
+    </form>
+        </body>
+</html>
